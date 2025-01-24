@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/home.css">
     <title>Document</title>
 </head>
@@ -13,9 +14,9 @@
         <nav class="social">
             <ul>
                 <li><a href="https://www.linkedin.com/in/renan-queiroz-a2a844338/" target="_blank" >Linkedin <img src="imgs/367593_linkedin_business_network_social_icon.png" alt=""></a></li>
-                <li><a href="#" target="_blank">Instagram <img src="imgs/1161953_instagram_icon.png" alt=""></a></li>
+                <li><a href="https://www.instagram.com/oqueiroz._/" target="_blank">Instagram <img src="imgs/1161953_instagram_icon.png" alt=""></a></li>
                 <li><a href="https://github.com/oQueirozzz" target="_blank">GitHub <img src="imgs/1378045_circle_git_github_hovytech_media_icon.png" alt=""></a></li>
-                <li><a href="#" target="_blank">Whatsapp <img src="imgs/5305166_call_chat_mobile_whatsapp_whatsapp logo_icon.png" alt=""> </a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=5511966300691&text=Ol%C3%A1%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os!" target="_blank">Whatsapp <img src="imgs/5305166_call_chat_mobile_whatsapp_whatsapp logo_icon.png" alt=""> </a></li>
             </ul>
         </nav>
 
@@ -24,17 +25,16 @@
     <main>
         <div class="container">
             <div class="all">
-                <div class="lefter"><a href=""></a>
-               
-                    <div class="text">Experiências</div>
+                
+                <div class="left" onclick="window.location.href='sobre-mim/sobre.php';"> 
+                    <div class="text">Sobre mim</div>
                 </div>
-                <div class="left"> <a href="projetos/projetos.php"></a>
-                    <div class="text">Projetos</div>
-                </div>
-                <div class="center">
-
-                    <div class="explainer"><span>
-                            <div class="tooltip-container">
+                <div class="center" onclick="window.location.href='projetos/projetos.php';">
+                    <a href="projetos/projetos.php"></a>
+                    <div class="explainer"style="position: absolute; top: 0; left: 0;">
+                    <!-- <span> -->
+                        
+                            <!-- <div class="tooltip-container" >
                                 <div class="relative">
                                     <div class="group peer relative z-10 p-1">
                                         <svg
@@ -49,7 +49,7 @@
                                     </div>
 
                                 </div>
-                            </div>
+                            </div> -->
 
                             <!-- <i class="fa fa-search" aria-hidden="true"></i> -->
                             <!-- <i class="fa fa-ellipsis-v" aria-hidden="true"></i> -->
@@ -57,14 +57,12 @@
                         </span>
 
                     </div>
-                    <div class="text"></div>
+                    <div class="text">Meus Projetos</div>
                 </div>
                 <div class="right"> <a href=""></a>
                     <div class="text">Minhas Habilidades</div>
                 </div>
-                <div class="righter"> <a href=""></a>
-                    <div class="text">A propósito</div>
-                </div>
+            
             </div>
         </div>
     </main>
