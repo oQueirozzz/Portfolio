@@ -1,0 +1,256 @@
+body {
+    font-family: "Raleway", sans-serif;
+    background-image: radial-gradient(circle at center, #899Dc4, #495D84);
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-weight: 300;
+    background: radial-gradient(ellipse at bottom, #302e2e, #000000);
+  }
+  main{
+    height: 94vh;
+  }
+  .container{
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 95%;
+
+    display: flex;
+  }
+  
+  .all {
+    display: flex;
+    perspective: 10px;
+    transform: perspective(300px) rotateX(20deg);
+    will-change: perspective;
+    perspective-origin: center center;
+    transition: all 1.3s ease-out;
+    justify-content: center;
+    transform-style: preserve-3d;
+  }
+  
+  .all:hover {
+    perspective: 1000px;
+    transition: all 1.3s ease-in;
+    transform: perspective(10000px) rotateX(0deg);
+  }
+  .all:hover .text {
+    opacity: 1;
+  }
+  .all:hover > div {
+    opacity: 1;
+    transition-delay: 0s;
+  }
+  /* .all:hover .explainer {
+    opacity: 0;
+  } */
+  
+  .left, .center, .right, .lefter, .righter {
+    width: 200px;
+    height: 150px;
+    max-width: 200px;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 20px 5px rgba(100, 100, 255, 0.4);
+    opacity: 0;
+    transition: all 0.3s ease;
+    transition-delay: 1s;
+    position: relative;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #58d;
+    cursor: pointer;
+    background-blend-mode: color-burn;
+  }
+  .left:hover, .center:hover, .right:hover, .lefter:hover, .righter:hover {
+    box-shadow: 0 0 30px 10px rgba(100, 100, 255, 0.6);
+    background-color: #ccf;
+  }
+  
+  .text {
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 0.3s ease;
+    bottom: 0;
+    left: 5px;
+    position: absolute;
+    will-change: transform;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(100, 100, 255, 0.6);
+  }
+  
+  .lefter {
+    transform: translateX(-60px) translateZ(-50px) rotateY(-10deg);
+    background-image: url(../imgs/3887444_bag_business_case_portfolio_suitcase_icon.png);
+  }
+  
+  .left {
+    transform: translateX(-30px) translateZ(-25px) rotateY(-5deg);
+    background-image: url(https://cdn3.iconfinder.com/data/icons/other-icons/48/creative_draw-512.png);
+  }
+  
+  .center {
+    opacity: 1;
+    /* background-image: url(https://cdn3.iconfinder.com/data/icons/other-icons/48/app_window-512.png); */
+  }
+  
+  .right {
+    transform: translateX(30px) translateZ(-25px) rotateY(5deg);
+    background-image: url(../imgs/3586372_brain_idea_mind_icon.png);
+  }
+  
+  .righter {
+    transform: translateX(60px) translateZ(-50px) rotateY(10deg);
+    background-image: url(../imgs/9165599_pen_write_icon.png);
+  }
+  
+  .explainer {
+    font-weight: 300;
+    font-size: 2rem;
+    color: #fff;
+    transition: all 0.6s ease;
+    width: 100%;
+    height: 100%;
+    background-color: #303050;
+    background-image: radial-gradient(circle at center top, #cce, #33a);
+    border-radius: 10px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .explainer > span > img {
+    width: 100px;
+    height: 100px;
+  }
+  i{
+    color: #fff;
+    font-size: 130px;
+    
+  }
+  
+  /* .ref {
+    background-color: #000;
+    background-image: linear-gradient(to bottom, #d80, #c00);
+    border-radius: 3px;
+    padding: 7px 10px;
+    position: absolute;
+    font-size: 16px;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+  } */
+  /* .ref::first-letter {
+    font-size: 12px;
+  } */
+   footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+   }
+   
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.social {
+    position: fixed;
+    top: 30%;
+}
+.social ul {
+    padding: 0px;
+    -webkit-transform: translate(-270px, 0);
+    -moz-transform: translate(-270px, 0);
+    -ms-transform: translate(-270px, 0);
+    -o-transform: translate(-270px, 0);
+    transform: translate(-270px, 0);
+}
+.social ul li {
+    display: block;
+    margin: 5px;
+    background: rgba(0, 0, 0, 0.36);
+    width: 300px;
+    text-align: right;
+    padding: 10px;
+    -webkit-border-radius: 0 30px 30px 0;
+    -moz-border-radius: 0 30px 30px 0;
+    border-radius: 0 30px 30px 0;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.social ul li:hover {
+    -webkit-transform: translate(110px, 0);
+    -moz-transform: translate(110px, 0);
+    -ms-transform: translate(110px, 0);
+    -o-transform: translate(110px, 0);
+    transform: translate(110px, 0);
+    background: rgba(255, 255, 255, 0.4);
+}
+.social ul li:hover a {
+    color: #000;
+}
+.social ul li:hover img {
+    color: #fff;
+    background: #6200ff;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.social ul li img {
+    margin-left: 10px;
+    color: #000;
+    background: #fff;
+    padding: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    background: #ffffff;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+/* body {
+    background: #25343f;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+} */
+.lefter a, .left a,.right a, .righter a{
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+  .icon {
+    font-size: 24px;
+    margin-right: 8px;
+    color: #4caf50;
+  }
+   
