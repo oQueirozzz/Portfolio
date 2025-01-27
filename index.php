@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/home.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>Renan Queiroz</title>
 </head>
 
 <body>
@@ -59,7 +60,7 @@
                     </div>
                     <div class="text">Meus Projetos</div>
                 </div>
-                <div class="right"> <a href=""></a>
+                <div class="right"> <a href="habilidades/habilidades.php"></a>
                     <div class="text">Minhas Habilidades</div>
                 </div>
             
