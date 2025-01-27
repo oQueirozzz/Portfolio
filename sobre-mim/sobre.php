@@ -47,9 +47,8 @@
 
     <section class="container">
       <div class="text-content">
-        <h1 class="sub-title">Meu nome é <span class="color">Renan Queiroz</span>. Sou um desenvolvedor web focado em inovação, performance e impacto digital.</h1>
-        <p>Sou um profissional da área de desenvolvimento de sistemas, com paixão por tecnologia e aprendizado contínuo. Minha trajetória é guiada pelo equilíbrio entre dedicação profissional e crescimento pessoal. Pratico atividades físcas para ajudar a manter o foco, a resiliência e o equilíbrio em situações de alta pressão. <br>
-          Acredito no poder do autodesenvolvimento e busco aplicar isso tanto na vida pessoal quanto na profissional, utilizando meu tempo para aprender novas habilidades e explorar soluções criativas. Valorizo a colaboração em equipe, a boa comunicação e o comprometimento com resultados. <br>
+        <h1 class="sub-title">Meu nome é <span class="color">Renan Queiroz</span>. <br>Sou um desenvolvedor web focado em inovação, performance e impacto digital.</h1>
+        <p>Sou um profissional da área de desenvolvimento de sistemas, com paixão por tecnologia e aprendizado contínuo. Minha trajetória é guiada pelo equilíbrio entre dedicação profissional e crescimento pessoal. Pratico atividades físcas para ajudar a manter o foco, a resiliência e o equilíbrio em situações de alta pressão. <br> <br>
           Além disso, tenho facilidade em me adaptar a diferentes cenários, buscando sempre contribuir positivamente para o ambiente em que estou inserido. Meu objetivo é combinar excelência técnica com um olhar humano, oferecendo soluções que impactem positivamente as pessoas e os projetos com os quais me envolvo.</p>
         <!-- <h2>
           Formação Acadêmica

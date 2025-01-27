@@ -33,7 +33,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-top: 180px;
+    margin-top: 10px;
 
 }
 .container-card{
@@ -45,7 +45,7 @@ body{
     display: flex;
     gap: 200px;
     margin-right: 100px;
-    height: 500px;
+    height: 650px;
 
 }
 .card{
@@ -60,7 +60,7 @@ body{
     background-repeat: no-repeat;
 }
 section{
-    height: 60vh;
+    height: 65vh;
     position: relative;
     
 }
@@ -81,7 +81,7 @@ section::after{
     align-items: center;
     margin: 0 auto;
     gap: 30px;
-    bottom: 40px;
+    bottom: 30px;
     height: 1px;
     width: 100%;
     transition: 1s;
@@ -125,6 +125,7 @@ iframe{
     display: flex;
     flex-direction: column;
     gap: 40px;
+    margin-bottom: 50px;
 }
 .text-content h1{
     color: #fff;
@@ -299,6 +300,7 @@ footer{
     align-items: center;
     display: flex;
     color: white;
+    margin-top: 20px;
    }
    a {
     color: #fff;

@@ -8,7 +8,7 @@ body {
     background: radial-gradient(ellipse at bottom, #302e2e, #000000);
   }
   main{
-    height: 94vh;
+    height: 93vh;
   }
   .container{
     overflow: hidden;
