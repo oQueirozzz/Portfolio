@@ -239,6 +239,10 @@ $skills = [
       </div>
 
     </section>
+
+    <section>
+        <h1 class="title">Aptidões</h1>
+    </section>
   </main>
   <footer>
     <p>Renan Queiroz &copy; 2025</p>
