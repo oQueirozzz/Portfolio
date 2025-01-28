@@ -163,99 +163,87 @@ $skills = [
   ],
 
 ];
-
-
 $competencias = [
   [
-	"name" => "Comunicação",
-	"description" => "Possuo sólida competência em comunicação, com habilidade para transmitir ideias técnicas de forma clara e acessível, adaptando a linguagem ao público-alvo. Valorizo a escuta ativa e a colaboração, promovendo alinhamento e eficácia nos projetos. Tenho experiência em documentações detalhadas e apresentações objetivas."
+    "name" => "Communication",
+    "description" => "I have solid communication skills, with the ability to convey technical ideas clearly and accessibly, adjusting the language to the target audience. I value active listening and collaboration, promoting alignment and effectiveness in projects. I have experience in detailed documentation and objective presentations."
   ],
   [
-	"name" => "Trabalho em equipe",
-	"description" => "
-Tenho facilidade em trabalhar em equipe, contribuindo com colaboração, escuta ativa e foco em soluções. Valorizo a troca de ideias e o respeito às perspectivas, buscando sempre alcançar objetivos comuns de forma eficiente."
+    "name" => "Teamwork",
+    "description" => "I have a natural ability to work well in teams, contributing with collaboration, active listening, and a focus on solutions. I value the exchange of ideas and respect for different perspectives, always striving to achieve common goals efficiently."
   ],
   [
-	"name" => "Organização",
-	"description" => "Sou uma pessoa organizada, com foco em planejamento e priorização de tarefas para otimizar resultados. Mantenho rotinas estruturadas e atenção aos detalhes, garantindo eficiência e cumprimento de prazos."	
+    "name" => "Organization",
+    "description" => "I am an organized individual, with a focus on planning and task prioritization to optimize results. I maintain structured routines and attention to detail, ensuring efficiency and deadline compliance."
   ],
   [
-	"name" => "Liderança",
-	"description" => "Possuo habilidades de liderança, incentivando o trabalho em equipe e promovendo um ambiente colaborativo. Foco em tomar decisões assertivas, delegar responsabilidades e motivar os integrantes para alcançar os objetivos com eficiência."
+    "name" => "Leadership",
+    "description" => "I possess leadership skills, encouraging teamwork and promoting a collaborative environment. I focus on making assertive decisions, delegating responsibilities, and motivating team members to achieve objectives efficiently."
   ],
   [
-	"name" => "Resiliência",
-	"description" => "Sou resiliente, capaz de me adaptar a mudanças e superar desafios com foco e equilíbrio. Encaro dificuldades como oportunidades de aprendizado, mantendo uma atitude positiva e proativa."
+    "name" => "Resilience",
+    "description" => "I am resilient, able to adapt to changes and overcome challenges with focus and balance. I view difficulties as opportunities for learning, maintaining a positive and proactive attitude."
   ],
   [
-	"name" => "Inovação",
-	"description" => "Tenho perfil inovador, sempre buscando novas ideias e abordagens para resolver problemas e melhorar processos. Valorizo a criatividade e a aplicação de soluções práticas que gerem resultados impactantes."	
+    "name" => "Innovation",
+    "description" => "I have an innovative profile, always seeking new ideas and approaches to solve problems and improve processes. I value creativity and the application of practical solutions that generate impactful results."
   ]
 ];
-  
 
-// echo "<pre>";
-// print_r($skills);
-// echo "</pre>";
 ?>
 
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/global.css">
-  <link rel="stylesheet" href="habilidades.css">
+  <link rel="stylesheet" href="../habilidades/habilidades.css">
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
-  <title>Habilidades</title>
+  <title>Skills</title>
 </head>
 
 <body>
   <header>
     <nav class="social">
       <ul>
-        <li><a href="https://www.linkedin.com/in/renan-queiroz-a2a844338/" target="_blank">Linkedin <img src="../imgs/367593_linkedin_business_network_social_icon.png" alt=""></a></li>
+        <li><a href="https://www.linkedin.com/in/renan-queiroz-a2a844338/" target="_blank">LinkedIn <img src="../imgs/367593_linkedin_business_network_social_icon.png" alt=""></a></li>
         <li><a href="https://www.instagram.com/oqueiroz._/" target="_blank">Instagram <img src="../imgs/1161953_instagram_icon.png" alt=""></a></li>
         <li><a href="https://github.com/oQueirozzz" target="_blank">GitHub <img src="../imgs/1378045_circle_git_github_hovytech_media_icon.png" alt=""></a></li>
-        <li><a href="https://api.whatsapp.com/send?phone=5511966300691&text=Ol%C3%A1%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os!" target="_blank">Whatsapp <img src="../imgs/5305166_call_chat_mobile_whatsapp_whatsapp logo_icon.png" alt=""> </a></li>
-		<li><a href="../english/habilidades-en.php">Português <img src="../imgs/brazil-flag-black-and-white-country-national-vector-31611775.jpg" alt=""></a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=5511966300691&text=Ol%C3%A1%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os!" target="_blank">WhatsApp <img src="../imgs/5305166_call_chat_mobile_whatsapp_whatsapp logo_icon.png" alt=""></a></li>
+        <li><a href="../habilidades/habilidades.php">English <img src="../imgs/usa.webp" alt=""></a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <a href="../index.php">
+    <a href="home.php">
       <button class="button">
         <div class="button-box">
           <span class="button-elem">
             <svg viewBox="0 0 46 40" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z"></path>
+              <path d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z"></path>
             </svg>
           </span>
           <span class="button-elem">
             <svg viewBox="0 0 46 40">
-              <path
-                d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z"></path>
+              <path d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z"></path>
             </svg>
           </span>
         </div>
       </button>
     </a>
-    <h1 class="title">
-      Habilidades
-    </h1>
-
+    <h1 class="title">Skills</h1>
 
     <section class="container">
       <h2 class="motivacional">
-        Cada linha de código é uma oportunidade de transformar ideias em realidade.
+        Every line of code is an opportunity to turn ideas into reality.
       </h2>
 
       <p>
-        Sou um profissional em desenvolvimento de sistemas, apaixonado por tecnologia e inovação. Tenho habilidades sólidas nas línguas abaixo. Estou sempre em busca de aprimorar meus conhecimentos e enfrentar desafios que me permitam crescer pessoal e profissionalmente. Além disso, valorizo o trabalho em equipe, a comunicação eficaz e a entrega de resultados de alta qualidade.
+        I am a systems development professional, passionate about technology and innovation. I have solid skills in the areas below and am always looking to enhance my knowledge and take on challenges that help me grow both personally and professionally. Additionally, I value teamwork, effective communication, and delivering high-quality results.
       </p>
       <div class="card-container">
       <?php
@@ -268,27 +256,25 @@ Tenho facilidade em trabalhar em equipe, contribuindo com colaboração, escuta 
       ?>
 
       </div>
-
     </section>
 
     <section>
-        <h1 class="title2">Soft Skiils</h1>
-		<div class="cards">
-			<div class="cards__inner">
-			<?php
-			foreach($competencias as $competencia){
-				echo '<div class="cardd">
-				<div class="text-content">
-				<h1>' . $competencia["name"] . '</h1>
-				<p>' . $competencia["description"] . '</p>
-				</div>
-				</div>';
-			
-			}
-					?>
-					</div>
-					<div class="overlay cards__inner"></div>
-		</div>
+      <h1 class="title2">Soft Skiils</h1>
+      <div class="cards">
+        <div class="cards__inner">
+        <?php
+        foreach ($competencias as $competencia) {
+          echo '<div class="cardd">
+            <div class="text-content">
+                <h3>' . $competencia["name"] . '</h3>
+                <p>' . $competencia["description"] . '</p>
+            </div>
+          </div>';
+        }
+        ?>
+        </div>
+        <div class="overlay cards__inner"></div>
+      </div>
     </section>
   </main>
   <footer>

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/global.css">  
-  <link rel="stylesheet" href="sobre.css">
+  <link rel="stylesheet" href="../sobre-mim/sobre.css">
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-  <title>Sobre mim</title>
+  <title>About Me</title>
 </head>
 
 <body>
@@ -18,17 +18,16 @@
         <li><a href="https://www.instagram.com/oqueiroz._/" target="_blank">Instagram <img src="../imgs/1161953_instagram_icon.png" alt=""></a></li>
         <li><a href="https://github.com/oQueirozzz" target="_blank">GitHub <img src="../imgs/1378045_circle_git_github_hovytech_media_icon.png" alt=""></a></li>
         <li><a href="https://api.whatsapp.com/send?phone=5511966300691&text=Ol%C3%A1%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os!" target="_blank">Whatsapp <img src="../imgs/5305166_call_chat_mobile_whatsapp_whatsapp logo_icon.png" alt=""> </a></li>
-        <li><a href="../english/sobre-en.php">Português <img src="../imgs/brazil-flag-black-and-white-country-national-vector-31611775.jpg" alt=""></a></li>
-
+        <li><a href="../sobre-mim/sobre.php">English <img src="../imgs/usa.webp" alt=""></a></li>
       </ul>
     </nav>
   </header>
   <main>
     <h1 class="title">
-      Sobre mim
+      About Me
     </h1>
 
-    <a href="../index.php">
+    <a href="home.php">
       <button class="button">
         <div class="button-box">
           <span class="button-elem">
@@ -49,13 +48,13 @@
 
     <section class="container">
       <div class="text-content">
-        <h1 class="sub-title">Meu nome é <span class="color">Renan Queiroz</span>. <br>Sou um desenvolvedor web focado em inovação, performance e impacto digital.</h1>
-        <p>Sou um profissional da área de desenvolvimento de sistemas, com paixão por tecnologia e aprendizado contínuo. Minha trajetória é guiada pelo equilíbrio entre dedicação profissional e crescimento pessoal. Pratico atividades físcas para ajudar a manter o foco, a resiliência e o equilíbrio em situações de alta pressão. <br> <br>
-          Além disso, tenho facilidade em me adaptar a diferentes cenários, buscando sempre contribuir positivamente para o ambiente em que estou inserido. Meu objetivo é combinar excelência técnica com um olhar humano, oferecendo soluções que impactem positivamente as pessoas e os projetos com os quais me envolvo.</p>
+        <h1 class="sub-title">My name is <span class="color">Renan Queiroz</span>. <br>I am a web developer focused on innovation, performance, and digital impact.</h1>
+        <p>I am a systems development professional, passionate about technology and continuous learning. My journey is guided by a balance between professional dedication and personal growth. I practice physical activities to help maintain focus, resilience, and balance in high-pressure situations. <br> <br>
+          Additionally, I easily adapt to different scenarios, always striving to contribute positively to the environment I am in. My goal is to combine technical excellence with a human perspective, offering solutions that positively impact people and the projects I am involved with.</p>
         <!-- <h2>
-          Formação Acadêmica
+          Academic Background
         </h2>
-        <p>Desenvolvimento de sistemas, Senai Armando de Arruda Pereira, cursando, conclusão em dezembro de 2025</p> -->
+        <p>Systems Development, Senai Armando de Arruda Pereira, ongoing, completion in December 2025</p> -->
       </div>
 
       <div class="img"></div>
@@ -65,8 +64,8 @@
   </main>
 
   <footer>
-        <p>Renan Queiroz &copy; 2025</p>
-    </footer>
+    <p>Renan Queiroz &copy; 2025</p>
+  </footer>
 
 </body>
 

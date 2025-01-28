@@ -1,42 +1,42 @@
 <?php
 
-$projetos = [
+$projects = [
     [
         "title" => "Rimac",
-        "description" => "Este projeto foi desenvolvido como uma réplica inspirada no site oficial da Rimac, adaptado para oferecer uma experiência completa de compra de veículos e apresentação da história da marca. O site combina um design sofisticado com informações detalhadas sobre a inovação e o legado da Rimac.",
+        "description" => "This project was developed as a replica inspired by the official Rimac website, adapted to provide a complete vehicle purchase experience and showcase the brand's history. The site combines a sophisticated design with detailed information about Rimac's innovation and legacy.",
         "link" => "https://guimenn.github.io/Rimac/",
         "html" => "../sites/rimac.html"
     ],
     [
         "title" => "ExploraCar",
-        "description" => "Este projeto foi desenvolvido para oferecer uma experiência digital prática e intuitiva no segmento de aluguel de veículos. O site apresenta um design moderno, responsivo e alinhado às necessidades de diferentes tipos de usuários, desde turistas a empresas.",
+        "description" => "This project was developed to offer a practical and intuitive digital experience in the vehicle rental segment. The site features a modern, responsive design aligned with the needs of different types of users, from tourists to businesses.",
         "link" => "https://github.com/oQueirozzz/ExploraCar",
         "html" => "../sites/explora.html"
     ],
     [
         "title" => "Nike",
-        "description" => "Este projeto foi desenvolvido como uma réplica adaptada do site oficial da Nike, oferecendo uma experiência dinâmica e moderna para a compra de tênis. O design e a funcionalidade foram cuidadosamente recriados para refletir a identidade visual da marca e destacar seus produtos de maneira impactante.",
+        "description" => "This project was developed as an adapted replica of the official Nike website, offering a dynamic and modern experience for sneaker shopping. The design and functionality were carefully recreated to reflect the brand's visual identity and highlight its products in an impactful way.",
         "link" => "https://oqueirozzz.github.io/site_tenis/q",
         "html" => "../sites/nike.html"
     ],
     [
-        "title" => "Sinuca",
-        "description" => "Este projeto é um site que apresenta um jogo interativo de bilhar, projetado para proporcionar entretenimento diretamente no navegador. Com gráficos dinâmicos e controles precisos, o jogo permite aos usuários se divertir sozinhos ou competir com amigos em partidas desafiadoras.",
+        "title" => "Pool",
+        "description" => "This project is a website that presents an interactive billiards game, designed to provide entertainment directly in the browser. With dynamic graphics and precise controls, the game allows users to have fun alone or compete with friends in challenging matches.",
         "link" => "https://github.com/felipez3r0/Sinuca-FirefoxOS",
         "html" => "../sites/Sinuca-FirefoxOS-master/index.html"
     ],
 ];
 ?>
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/global.css">
-    <link rel="stylesheet" href="projetos.css">
+    <link rel="stylesheet" href="../projetos/projetos.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <title>Projetos</title>
+    <title>Projects</title>
 </head>
 
 <body>
@@ -47,16 +47,16 @@ $projetos = [
                 <li><a href="https://www.instagram.com/oqueiroz._/" target="_blank">Instagram <img src="../imgs/1161953_instagram_icon.png" alt=""></a></li>
                 <li><a href="https://github.com/oQueirozzz" target="_blank">GitHub <img src="../imgs/1378045_circle_git_github_hovytech_media_icon.png" alt=""></a></li>
                 <li><a href="https://api.whatsapp.com/send?phone=5511966300691&text=Ol%C3%A1%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os!" target="_blank">Whatsapp <img src="../imgs/5305166_call_chat_mobile_whatsapp_whatsapp logo_icon.png" alt=""> </a></li>
-                <li><a href="../english/projetos-en.php">Português <img src="../imgs/brazil-flag-black-and-white-country-national-vector-31611775.jpg" alt=""></a></li>
+                <li><a href="../projetos/projetos.php">English <img src="../imgs/usa.webp" alt=""></a></li>
             </ul>
         </nav>
     </header>
     <main>
         <h1 class="title">
-            Projetos
+            Projects
         </h1>
        
-        <a href="../index.php">
+        <a href="home.php">
             <button class="button">
               <div class="button-box">
                 <span class="button-elem">
@@ -79,23 +79,21 @@ $projetos = [
     
         <div class="container">
             <?php
-            foreach ($projetos as $projeto) {
+            foreach ($projects as $project) {
                 echo '<section>
                     <div class="container-card">
                     <div class="card">
-                    <iframe src="' . $projeto["html"] . '" frameborder="0"></iframe>
+                    <iframe src="' . $project["html"] . '" frameborder="0"></iframe>
                         </div>
                     
                         <div class="text-content">
-                            <h1>' . $projeto["title"] . '</h1>
-                            <p>' . $projeto["description"] . '</p>
-                            
-     <a class="btn" href="' . $projeto["link"] . '" target="_blank" style="--clr:#00ccff; --i:1">
-          <span>Ver mais</span>
+                            <h1>' . $project["title"] . '</h1>
+                            <p>' . $project["description"] . '</p>
+                             <a class="btn" href="' . $project["link"] . '" target="_blank" style="--clr:#00ccff; --i:1">
+          <span>See more</span>
         </a> 
                         </div>
                     </div>
-                   
                     <div class="row"></div>
                 </section>';
             }

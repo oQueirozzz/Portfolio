@@ -76,10 +76,10 @@
             pointer-events: none;
             user-select: none;
             opacity: var(--opacity, 0);
-            -webkit-mask: radial-gradient(18rem 18rem at var(--x) var(--y),
+            -webkit-mask: radial-gradient(8rem 8rem at var(--x) var(--y),
                     #000 1%,
                     transparent 50%);
-            mask: radial-gradient(18rem 18rem at var(--x) var(--y),
+            mask: radial-gradient(8rem 8rem at var(--x) var(--y),
                     #000 1%,
                     transparent 50%);
             transition: 400ms mask ease;
@@ -107,7 +107,7 @@
 
         :not(.overlay)>.card:hover {
             --lightness: 95%;
-            background: #121212;
+            background: #141414;
         }
 
         .text-content {
@@ -124,7 +124,6 @@
 
 <body>
     <main class="main flow">
-        <!-- <h1 class="main__heading">Pricing</h1> -->
         <div class="main__cards cards">
             <div class="cards__inner">
                 <div class="cards__card card">
@@ -133,8 +132,6 @@
                             soluta consequuntur dolor aspernatur expedita vero nostrum ullam quo debitis, in minus
                             cumque voluptates voluptatum consectetur magni.</p>
                     </div>
-
-                    <!-- <a href="#" class="card__cta cta">Get Started</a> -->
                 </div>
 
                 <div class="cards__card card">
@@ -144,7 +141,6 @@
                             cumque voluptates voluptatum consectetur magni.</p>
                     </div>
 
-                    <!-- <a href="#" class="card__cta cta">Upgrade to Pro</a> -->
                 </div>
 
                 <div class="cards__card card">
@@ -152,9 +148,7 @@
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem illo rerum quam autem
                             soluta consequuntur dolor aspernatur expedita vero nostrum ullam quo debitis, in minus
                             cumque voluptates voluptatum consectetur magni.</p>
-                    </div>
-
-                    <!-- <div href="#" class="card__cta cta">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, earum reiciendis provident enim libero quam veniam quia impedit maxime molestiae in veritatis ad cumque, laudantium repellendus? Fugiat accusantium at corporis.</div> -->
+                        </div>
                 </div>
             </div>
 
@@ -207,7 +201,9 @@
         };
 
         cards.forEach(initOverlayCard);
-        document.body.addEventListener("pointermove", applyOverlayMask);
+        cards.forEach((card) => {
+    card.addEventListener("pointermove", applyOverlayMask);
+});
 
     </script>
 </body>
