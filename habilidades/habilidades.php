@@ -205,6 +205,7 @@ Tenho facilidade em trabalhar em equipe, contribuindo com colaboração, escuta 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../neon/neon.css">
   <link rel="stylesheet" href="../css/global.css">
   <link rel="stylesheet" href="habilidades.css">
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
@@ -214,86 +215,66 @@ Tenho facilidade em trabalhar em equipe, contribuindo com colaboração, escuta 
 </head>
 
 <body>
-  <header>
-    <nav class="social">
-      <ul>
-        <li><a href="https://www.linkedin.com/in/renan-queiroz-a2a844338/" target="_blank">Linkedin <img src="../imgs/367593_linkedin_business_network_social_icon.png" alt=""></a></li>
-        <li><a href="https://www.instagram.com/oqueiroz._/" target="_blank">Instagram <img src="../imgs/1161953_instagram_icon.png" alt=""></a></li>
-        <li><a href="https://github.com/oQueirozzz" target="_blank">GitHub <img src="../imgs/1378045_circle_git_github_hovytech_media_icon.png" alt=""></a></li>
-        <li><a href="https://api.whatsapp.com/send?phone=5511966300691&text=Ol%C3%A1%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os!" target="_blank">Whatsapp <img src="../imgs/5305166_call_chat_mobile_whatsapp_whatsapp logo_icon.png" alt=""> </a></li>
-		<li><a href="../english/habilidades-en.php">Português <img src="../imgs/brazil-flag-black-and-white-country-national-vector-31611775.jpg" alt=""></a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <a href="../index.php">
-      <button class="button">
-        <div class="button-box">
-          <span class="button-elem">
-            <svg viewBox="0 0 46 40" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z"></path>
-            </svg>
-          </span>
-          <span class="button-elem">
-            <svg viewBox="0 0 46 40">
-              <path
-                d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z"></path>
-            </svg>
-          </span>
+  <div id="app">
+    <header>
+      <nav class="social">
+        <ul>
+          <li><a href="https://www.linkedin.com/in/renan-queiroz-a2a844338/" target="_blank">Linkedin <img src="../imgs/367593_linkedin_business_network_social_icon.png" alt=""></a></li>
+          <li><a href="https://www.instagram.com/oqueiroz._/" target="_blank">Instagram <img src="../imgs/1161953_instagram_icon.png" alt=""></a></li>
+          <li><a href="https://github.com/oQueirozzz" target="_blank">GitHub <img src="../imgs/1378045_circle_git_github_hovytech_media_icon.png" alt=""></a></li>
+          <li><a href="https://api.whatsapp.com/send?phone=5511966300691&text=Ol%C3%A1%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os!" target="_blank">Whatsapp <img src="../imgs/5305166_call_chat_mobile_whatsapp_whatsapp logo_icon.png" alt=""> </a></li>
+        <li><a href="../english/habilidades-en.php">Português <img src="../imgs/brazil-flag-black-and-white-country-national-vector-31611775.jpg" alt=""></a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <a href="../index.php">
+        <button class="button">
+          <div class="button-box">
+            <span class="button-elem">
+              <svg viewBox="0 0 46 40" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z"></path>
+              </svg>
+            </span>
+            <span class="button-elem">
+              <svg viewBox="0 0 46 40">
+                <path
+                  d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z"></path>
+              </svg>
+            </span>
+          </div>
+        </button>
+      </a>
+      <h1 class="title">
+        Habilidades
+      </h1>
+      <section class="container">
+        <h2 class="motivacional">
+          Cada linha de código é uma oportunidade de transformar ideias em realidade.
+        </h2>
+        <p>
+          Sou um profissional em desenvolvimento de sistemas, apaixonado por tecnologia e inovação. Tenho habilidades sólidas nas línguas abaixo. Estou sempre em busca de aprimorar meus conhecimentos e enfrentar desafios que me permitam crescer pessoal e profissionalmente. Além disso, valorizo o trabalho em equipe, a comunicação eficaz e a entrega de resultados de alta qualidade.
+        </p>
+        <div class="card-container">
+        <?php
+        foreach ($skills as $skill) {
+          echo '<div class="card">
+          ' . $skill["img"] . '
+          <h3>' . $skill["name"] . '</h3>
+        </div>';
+        }
+        ?>
         </div>
-      </button>
-    </a>
-    <h1 class="title">
-      Habilidades
-    </h1>
+      </section>
+      
+    </main>
+    <footer>
+      <p>Renan Queiroz &copy; 2025</p>
+    </footer>
+  </div>
+  <script type="module" src="../neon/neon.js"></script>      
 
-
-    <section class="container">
-      <h2 class="motivacional">
-        Cada linha de código é uma oportunidade de transformar ideias em realidade.
-      </h2>
-
-      <p>
-        Sou um profissional em desenvolvimento de sistemas, apaixonado por tecnologia e inovação. Tenho habilidades sólidas nas línguas abaixo. Estou sempre em busca de aprimorar meus conhecimentos e enfrentar desafios que me permitam crescer pessoal e profissionalmente. Além disso, valorizo o trabalho em equipe, a comunicação eficaz e a entrega de resultados de alta qualidade.
-      </p>
-      <div class="card-container">
-      <?php
-      foreach ($skills as $skill) {
-        echo '<div class="card">
-        ' . $skill["img"] . '
-        <h3>' . $skill["name"] . '</h3>
-      </div>';
-      }
-      ?>
-
-      </div>
-
-    </section>
-
-    <section>
-        <h1 class="title2">Soft Skiils</h1>
-		<div class="cards">
-			<div class="cards__inner">
-			<?php
-			foreach($competencias as $competencia){
-				echo '<div class="cardd">
-				<div class="text-content">
-				<h1>' . $competencia["name"] . '</h1>
-				<p>' . $competencia["description"] . '</p>
-				</div>
-				</div>';
-			
-			}
-					?>
-					</div>
-					<div class="overlay cards__inner"></div>
-		</div>
-    </section>
-  </main>
-  <footer>
-    <p>Renan Queiroz &copy; 2025</p>
-  </footer>
   <script>
         console.clear();
 

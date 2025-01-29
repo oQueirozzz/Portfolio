@@ -105,6 +105,9 @@ body{
       align-items: center;
       display: flex;
       color: white;
+      position: absolute;
+      bottom: 5px;
+      left: 46%;
      }
      a {
       color: #fff;
@@ -121,6 +124,7 @@ body{
   .social {
       position: fixed;
       top: 30%;
+      z-index: 999;
   }
   .social ul {
       padding: 0px;

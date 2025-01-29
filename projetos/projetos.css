@@ -1,13 +1,14 @@
 
 
-
 body{
     font-family: "Oswald", serif;
   background-size: cover;
   background-color: #202020;
   /* background: radial-gradient(ellipse at bottom, #4b4949, #000000); */
   font-weight: 300;
+
 }
+
 .title{
     color: white;
     text-align: center;
@@ -32,7 +33,6 @@ body{
     align-items: center;
     display: flex;
     flex-direction: column;
-    gap: 30px;
     margin-top: 10px;
 
 }
@@ -83,7 +83,7 @@ section::after{
     gap: 30px;
     bottom: 30px;
     height: 1px;
-    width: 100%;
+    width: 80%;
     transition: 1s;
     overflow: hidden;
     background: #6200ff;
@@ -93,7 +93,7 @@ section::after{
         transform: translateX(0px);
     }
     50% {
-        transform: translateX(1420px);
+        transform: translateX(1510px);
     }
     100% {
         transform: translateX(0px);
@@ -108,6 +108,7 @@ section::after{
     background: #292929    ;
     box-shadow: 0px 0px 10px 2px #ffffff;
     animation: dontstop 3s linear infinite;
+    
 }
 
 
@@ -115,7 +116,7 @@ section::after{
 iframe{
     position: relative;
     top: 34px;
-    left: 109px;
+    left: 20px;
     width: 526px;
     height: 327px;
     overflow-y: hidden;
@@ -138,6 +139,7 @@ iframe{
     color: #fff;
     font-size: 16px;
     max-width: 400px;
+    padding-left: 50px;
     text-align: start;
     letter-spacing: 2px;
 }
@@ -148,7 +150,7 @@ iframe{
     justify-content: center;
     align-items: center;
     background: rgba(0, 0, 0, 0.5);
-    margin: auto;
+    margin-left: 100px;
     transition: 1s;
     overflow: hidden;
     text-decoration: none;
@@ -173,6 +175,8 @@ iframe{
     transition: 1s;
     animation: animate 2s linear infinite;
     animation-delay: calc(0.33s * var(--i));
+    top: -116px;
+    left: 104px;
 }
 
 .btn:hover::before {
@@ -203,7 +207,7 @@ iframe{
 .btn span {
     position: relative;
     z-index: 1;
-    font-size: 1em;
+    font-size: 1rem;
     color: #fff;
     text-align: center;
     opacity: 0.8;
@@ -295,13 +299,13 @@ iframe{
   transform: translateX(-56px);
 }
 
-footer{
+/* footer{
     justify-content: center;
     align-items: center;
     display: flex;
     color: white;
     margin-top: 20px;
-   }
+   } */
    a {
     color: #fff;
     text-decoration: none;
@@ -385,5 +389,80 @@ i{
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
 }
+.carousel-container {
+    position: relative;
+    max-width: 76vw;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    display: flex;
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-image {
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-text {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.carousel-text h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.carousel-text p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.carousel-text button {
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.carousel-text button:hover {
+    background-color: #e04e2a;
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
 
    

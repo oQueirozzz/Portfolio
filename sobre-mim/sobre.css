@@ -40,7 +40,8 @@ h1{
   margin-left: 200px;
   font-size: 5rem;
   margin-top: 90px;
-  width: 19%;
+  width: 23%;
+  
 }
 
 .title::after {
@@ -72,4 +73,5 @@ h1{
   color: #6200ff;
   font-size: 2.3rem;
   font-weight: bold; /* Opcional, para dar ênfase */
+  text-shadow: none;
 }
