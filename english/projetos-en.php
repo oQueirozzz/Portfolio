@@ -115,6 +115,23 @@ $projects = [
           <p>Renan Queiroz &copy; 2025</p>
         </footer>
     </div>
+    <script>
+        let currentIndex = 0;
+
+        function moveSlide(step) {
+            const slides = document.querySelectorAll('.carousel-slide');
+            currentIndex += step;
+
+            if (currentIndex < 0) {
+                currentIndex = slides.length - 1;
+            } else if (currentIndex >= slides.length) {
+                currentIndex = 0;
+            }
+
+            const newTransformValue = -currentIndex * 100;
+            document.querySelector('.carousel').style.transform = `translateX(${newTransformValue}%)`;
+        }
+    </script>   
     <script type="module" src="../neon/neon.js"></script>      
 
 </body>

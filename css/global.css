@@ -109,6 +109,9 @@ body{
       bottom: 5px;
       left: 46%;
      }
+     footer p{
+      margin: 0;
+     }
      a {
       color: #fff;
       text-decoration: none;
@@ -123,7 +126,7 @@ body{
   
   .social {
       position: fixed;
-      top: 30%;
+      top: 27%;
       z-index: 999;
   }
   .social ul {
