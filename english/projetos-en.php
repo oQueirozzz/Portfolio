@@ -16,7 +16,7 @@ $projects = [
     [
         "title" => "Nike",
         "description" => "This project was developed as an adapted replica of the official Nike website, offering a dynamic and modern experience for sneaker shopping. The design and functionality were carefully recreated to reflect the brand's visual identity and highlight its products in an impactful way.",
-        "link" => "https://oqueirozzz.github.io/site_tenis/q",
+        "link" => "https://oqueirozzz.github.io/site_tenis",
         "html" => "../sites/nike.html"
     ],
     [
