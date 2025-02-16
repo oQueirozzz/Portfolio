@@ -167,32 +167,32 @@ $skills = [
 
 $competencias = [
   [
-	"name" => "Comunicação",
-	"description" => "Possuo sólida competência em comunicação, com habilidade para transmitir ideias técnicas de forma clara e acessível, adaptando a linguagem ao público-alvo. Valorizo a escuta ativa e a colaboração, promovendo alinhamento e eficácia nos projetos. Tenho experiência em documentações detalhadas e apresentações objetivas."
+    "name" => "Comunicação",
+    "description" => "Possuo sólida competência em comunicação, com habilidade para transmitir ideias técnicas de forma clara e acessível, adaptando a linguagem ao público-alvo. Valorizo a escuta ativa e a colaboração, promovendo alinhamento e eficácia nos projetos. Tenho experiência em documentações detalhadas e apresentações objetivas."
   ],
   [
-	"name" => "Trabalho em equipe",
-	"description" => "
+    "name" => "Trabalho em equipe",
+    "description" => "
 Tenho facilidade em trabalhar em equipe, contribuindo com colaboração, escuta ativa e foco em soluções. Valorizo a troca de ideias e o respeito às perspectivas, buscando sempre alcançar objetivos comuns de forma eficiente."
   ],
   [
-	"name" => "Organização",
-	"description" => "Sou uma pessoa organizada, com foco em planejamento e priorização de tarefas para otimizar resultados. Mantenho rotinas estruturadas e atenção aos detalhes, garantindo eficiência e cumprimento de prazos."	
+    "name" => "Organização",
+    "description" => "Sou uma pessoa organizada, com foco em planejamento e priorização de tarefas para otimizar resultados. Mantenho rotinas estruturadas e atenção aos detalhes, garantindo eficiência e cumprimento de prazos."
   ],
   [
-	"name" => "Liderança",
-	"description" => "Possuo habilidades de liderança, incentivando o trabalho em equipe e promovendo um ambiente colaborativo. Foco em tomar decisões assertivas, delegar responsabilidades e motivar os integrantes para alcançar os objetivos com eficiência."
+    "name" => "Liderança",
+    "description" => "Possuo habilidades de liderança, incentivando o trabalho em equipe e promovendo um ambiente colaborativo. Foco em tomar decisões assertivas, delegar responsabilidades e motivar os integrantes para alcançar os objetivos com eficiência."
   ],
   [
-	"name" => "Resiliência",
-	"description" => "Sou resiliente, capaz de me adaptar a mudanças e superar desafios com foco e equilíbrio. Encaro dificuldades como oportunidades de aprendizado, mantendo uma atitude positiva e proativa."
+    "name" => "Resiliência",
+    "description" => "Sou resiliente, capaz de me adaptar a mudanças e superar desafios com foco e equilíbrio. Encaro dificuldades como oportunidades de aprendizado, mantendo uma atitude positiva e proativa."
   ],
   [
-	"name" => "Inovação",
-	"description" => "Tenho perfil inovador, sempre buscando novas ideias e abordagens para resolver problemas e melhorar processos. Valorizo a criatividade e a aplicação de soluções práticas que gerem resultados impactantes."	
+    "name" => "Inovação",
+    "description" => "Tenho perfil inovador, sempre buscando novas ideias e abordagens para resolver problemas e melhorar processos. Valorizo a criatividade e a aplicação de soluções práticas que gerem resultados impactantes."
   ]
 ];
-  
+
 
 // echo "<pre>";
 // print_r($skills);
@@ -223,7 +223,7 @@ Tenho facilidade em trabalhar em equipe, contribuindo com colaboração, escuta 
           <li><a href="https://www.instagram.com/oqueiroz._/" target="_blank">Instagram <img src="../imgs/1161953_instagram_icon.png" alt=""></a></li>
           <li><a href="https://github.com/oQueirozzz" target="_blank">GitHub <img src="../imgs/1378045_circle_git_github_hovytech_media_icon.png" alt=""></a></li>
           <li><a href="https://api.whatsapp.com/send?phone=5511966300691&text=Ol%C3%A1%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os!" target="_blank">Whatsapp <img src="../imgs/5305166_call_chat_mobile_whatsapp_whatsapp logo_icon.png" alt=""> </a></li>
-        <li><a href="../english/habilidades-en.php">Português <img src="../imgs/brazil-flag-black-and-white-country-national-vector-31611775.jpg" alt=""></a></li>
+          <li><a href="../english/habilidades-en.php">Português <img src="../imgs/brazil-flag-black-and-white-country-national-vector-31611775.jpg" alt=""></a></li>
         </ul>
       </nav>
     </header>
@@ -257,73 +257,75 @@ Tenho facilidade em trabalhar em equipe, contribuindo com colaboração, escuta 
           Sou um profissional em desenvolvimento de sistemas, apaixonado por tecnologia e inovação. Tenho habilidades sólidas nas línguas abaixo. Estou sempre em busca de aprimorar meus conhecimentos e enfrentar desafios que me permitam crescer pessoal e profissionalmente. Além disso, valorizo o trabalho em equipe, a comunicação eficaz e a entrega de resultados de alta qualidade.
         </p>
         <div class="card-container">
-        <?php
-        foreach ($skills as $skill) {
-          echo '<div class="card">
+          <?php
+          foreach ($skills as $skill) {
+            echo '<div class="card">
           ' . $skill["img"] . '
           <h3>' . $skill["name"] . '</h3>
         </div>';
-        }
-        ?>
+          }
+          ?>
+
+          
+        </div>
         </div>
       </section>
-      
+
     </main>
     <footer>
       <p>Renan Queiroz &copy; 2025</p>
     </footer>
   </div>
-  <script type="module" src="../neon/neon.js"></script>      
+  <script type="module" src="../neon/neon.js"></script>
 
   <script>
-        console.clear();
+    console.clear();
 
-        const cardsContainer = document.querySelector(".cards");
-        const cardsContainerInner = document.querySelector(".cards__inner");
-        const cards = Array.from(document.querySelectorAll(".cardd"));
-        const overlay = document.querySelector(".overlay");
+    const cardsContainer = document.querySelector(".cards");
+    const cardsContainerInner = document.querySelector(".cards__inner");
+    const cards = Array.from(document.querySelectorAll(".cardd"));
+    const overlay = document.querySelector(".overlay");
 
-        const applyOverlayMask = (e) => {
-            const overlayEl = e.currentTarget;
-            const x = e.pageX - cardsContainer.offsetLeft;
-            const y = e.pageY - cardsContainer.offsetTop;
+    const applyOverlayMask = (e) => {
+      const overlayEl = e.currentTarget;
+      const x = e.pageX - cardsContainer.offsetLeft;
+      const y = e.pageY - cardsContainer.offsetTop;
 
-            overlayEl.style = `--opacity: 1; --x: ${x}px; --y:${y}px;`;
-        };
+      overlayEl.style = `--opacity: 1; --x: ${x}px; --y:${y}px;`;
+    };
 
-        const createOverlayCta = (overlayCard, ctaEl) => {
-            const overlayCta = document.createElement("div");
-            overlayCta.classList.add("cta");
-            overlayCta.textContent = ctaEl.textContent;
-            overlayCta.setAttribute("aria-hidden", true);
-            overlayCard.append(overlayCta);
-        };
+    const createOverlayCta = (overlayCard, ctaEl) => {
+      const overlayCta = document.createElement("div");
+      overlayCta.classList.add("cta");
+      overlayCta.textContent = ctaEl.textContent;
+      overlayCta.setAttribute("aria-hidden", true);
+      overlayCard.append(overlayCta);
+    };
 
-        const observer = new ResizeObserver((entries) => {
-            entries.forEach((entry) => {
-                const cardIndex = cards.indexOf(entry.target);
-                let width = entry.borderBoxSize[0].inlineSize;
-                let height = entry.borderBoxSize[0].blockSize;
+    const observer = new ResizeObserver((entries) => {
+      entries.forEach((entry) => {
+        const cardIndex = cards.indexOf(entry.target);
+        let width = entry.borderBoxSize[0].inlineSize;
+        let height = entry.borderBoxSize[0].blockSize;
 
-                if (cardIndex >= 0) {
-                    overlay.children[cardIndex].style.width = `${width}px`;
-                    overlay.children[cardIndex].style.height = `${height}px`;
-                }
-            });
-        });
+        if (cardIndex >= 0) {
+          overlay.children[cardIndex].style.width = `${width}px`;
+          overlay.children[cardIndex].style.height = `${height}px`;
+        }
+      });
+    });
 
-        const initOverlayCard = (cardEl) => {
-            const overlayCard = document.createElement("div");
-            overlayCard.classList.add("cardd");
-            createOverlayCta(overlayCard, cardEl.lastElementChild);
-            overlay.append(overlayCard);
-            observer.observe(cardEl);
-        };
+    const initOverlayCard = (cardEl) => {
+      const overlayCard = document.createElement("div");
+      overlayCard.classList.add("cardd");
+      createOverlayCta(overlayCard, cardEl.lastElementChild);
+      overlay.append(overlayCard);
+      observer.observe(cardEl);
+    };
 
-        cards.forEach(initOverlayCard);
-        document.body.addEventListener("pointermove", applyOverlayMask);
-
-    </script>
+    cards.forEach(initOverlayCard);
+    document.body.addEventListener("pointermove", applyOverlayMask);
+  </script>
 </body>
 
 </html>

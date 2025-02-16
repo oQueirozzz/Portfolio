@@ -1,7 +1,7 @@
 
 body {
   font-family: "Oswald", serif;
-    background-image: radial-gradient(circle at center, #899Dc4, #495D84);
+    /* background-image: radial-gradient(circle at center, #899Dc4, #495D84); */
     background-repeat: no-repeat;
     height: 98vh;
     font-weight: 300;
@@ -197,9 +197,5 @@ a {
     display: block;
 }
 
-  .icon {
-    font-size: 24px;
-    margin-right: 8px;
-    color: #4caf50;
-  }
+ 
    
